@@ -18,6 +18,9 @@ group = 'br.com.jkavdev.hibicode.beerstore'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '1.8'
 
+//se necessario, especificamos a versao do lombok, no caso de erro ao converter boolean
+//ext['lombok.version'] = '1.18.0'
+
 repositories {
 	mavenCentral()
 }
